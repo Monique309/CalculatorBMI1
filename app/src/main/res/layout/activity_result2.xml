@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ResultActivity" >
+
+<TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Your BMI is:"
+        android:textAlignment="center"
+        android:textColor="@color/purple_200"
+        android:textStyle="bold"
+    android:textSize="30sp"/>
+
+<TextView
+        android:id="@+id/textview_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:padding="16dp"
+        android:text ="Ola, Monique"
+        android:textSize="38sp"
+    tools:text="27.104"/>
+
+<TextView
+        android:id="@+id/textview_classification"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        tools:text="Classification : Normal"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:textAlignment="center"
+        android:text="BMI Categories:"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="@color/purple_200" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        android:text="Underweight = Below 18.5"
+        android:textStyle="normal"
+        />
+
+    <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="9dp"
+    android:textAlignment="center"
+    android:textSize="16sp"
+    android:text="Normal weight =  18.5 - 24.9"
+        android:textStyle="normal"
+        />
+
+    <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="9dp"
+    android:textAlignment="center"
+    android:textSize="16sp"
+    android:text="Overweight =  25.0 - 29.9"
+        android:textStyle="normal"
+    />
+
+   <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="9dp"
+    android:textAlignment="center"
+    android:textSize="16sp"
+    android:text="Obesity =  30.0 - 39.9"
+       android:textStyle="normal"
+      />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="9dp"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        android:text=" Morbid Obesity = Above 39.9"
+        android:textStyle="normal"
+        />
+
+
+</LinearLayout>
